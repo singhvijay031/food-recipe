@@ -6,6 +6,7 @@ import { useParams } from "react-router-dom";
 const Mealinfo = () => {
   const { mealId } = useParams();
   const [info, setInfo] = useState();
+
   // console.log(mealId);
 
   const getInfo = async () => {

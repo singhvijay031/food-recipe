@@ -1,5 +1,5 @@
 .meals{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-wrap: wrap;
     gap: 21px;
