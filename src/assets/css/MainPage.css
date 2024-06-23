@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url("https://cdn.create.vista.com/api/media/small/243381204/stock-photo-top-view-empty-wooden-chopping-board-cooking-utensils-ingredients-yellow");
+    background-repeat: repeat;
+    background-position: fixed;
+    height: 50vh;
+  
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgreen;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 22px;
+}
+
+.searchBar input{
+    width: 400px;
+    padding: 9px;
+    font-size: 22px;
+    border: none;
+    background-color: #e7e7e7;
+    border-radius: 6px;
+}
+
+  .searchBar button{
+    width: 90px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.searchBar button:hover{
+    color: black;
+    background-color: rgb(7, 250, 7);
+}
