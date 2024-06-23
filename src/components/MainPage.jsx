@@ -22,7 +22,7 @@ function MainPage() {
 
   return (
     <>
-      <h1>Food Recpie App</h1>
+      <h1>Food Recipe App</h1>
       <div className="container">
         <div className="searchBar">
           <input
