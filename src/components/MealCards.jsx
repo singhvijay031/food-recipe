@@ -16,6 +16,7 @@ const Mealcards = ({ detail }) => {
                 <p>{Item.strMeal}</p>
                 <NavLink to={`/${Item.idMeal}`}>
                   <button>Show Recipe</button>
+                  <button>You Tube</button>
                 </NavLink>
               </div>
             );
